@@ -44,7 +44,9 @@ if ($.isNode()) {
   cookiesArr.reverse();
 }
 const JD_API_HOST = 'https://api.m.jd.com/client.action';
-const inviteCodes = [`A0pf5SQE9FL-n@AUWE5mauQmD0LCWH-1X5Mkw@AUWE52srtjk59SjmqmBgt@A3oLvShopGJaq0c1aBfzN@AUWE5wNDOv0l3bDampAUC@AUWE5mqSXmWEBWTP_1ChLxg@AUWE5mazEmDJZWmLx3XgZww@ACj1RnKSQyjYJCmmXnQ@AUWE5mqmXnzUNWmf63y9Pkg@AUWE5mP-Tm2QMAGGsj35Nxg`]
+const inviteCodes = [
+  `A0pf5SQE9FL-n@AUWE5mauQmD0LCWH-1X5Mkw@AUWE52srtjk59SjmqmBgt@A3oLvShopGJaq0c1aBfzN@AUWE5wNDOv0l3bDampAUC@AUWE5mqSXmWEBWTP_1ChLxg@AUWE5mazEmDJZWmLx3XgZww@ACj1RnKSQyjYJCmmXnQ@AUWE5mqmXnzUNWmf63y9Pkg@AUWE5mP-Tm2QMAGGsj35Nxg`
+]
 !(async () => {
   $.tuanList = []
   await requireConfig();
